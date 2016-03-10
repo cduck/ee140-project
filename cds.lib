@@ -1,0 +1,10 @@
+ #####
+ # test/cds.lib
+ # can't use '-' in library name or '/' at end of UNIX dir
+ # comment lines must start with a space, then # or --
+ # SOFTINCLUDE does not generate warning if file is not found
+ # created by ee140-ad (Thu Mar 10 14:59:20 PST 2016)
+ #####
+INCLUDE /share/instsww/cadence/GPDK_PKG/gpdk090_v4.6/cds.lib.oa22
+SOFTINCLUDE /share/instsww/cadence/IC615.151/share/cdssetup/cds.lib
+SOFTINCLUDE /usr/local/cadence/IC615.151/share/cdssetup/cds.lib
