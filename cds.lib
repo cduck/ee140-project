@@ -8,3 +8,4 @@
 INCLUDE /share/instsww/cadence/GPDK_PKG/gpdk090_v4.6/cds.lib.oa22
 SOFTINCLUDE /share/instsww/cadence/IC615.151/share/cdssetup/cds.lib
 SOFTINCLUDE /usr/local/cadence/IC615.151/share/cdssetup/cds.lib
+DEFINE lab4 ./lab4
