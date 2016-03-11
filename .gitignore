@@ -27,6 +27,8 @@ ASSURA/
 ncvlog.log
 ConnectedPinsLog.txt
 UnconnectedPinsLog.txt
+#Cadence log files
+libManager.log
 
 #Cliosoft
 .SOS

@@ -1,0 +1,3 @@
+[submodule "cdsgit"]
+	path = cdsgit
+	url = https://github.com/cdsgit/cdsgit

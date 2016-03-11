@@ -118,6 +118,6 @@
       (printf "the NCSU CDK.  It is not defined in the calling environment\n")
       (printf "so the NCSU customizations will not be performed!\n"))))
 
-cdsgit_path = "/home/cc/ee140/sp16/class/ee140-ad/cdsgit"
+cdsgit_path = "cdsgit"
 setShellEnvVar( strcat("CDSGIT_PATH=" cdsgit_path) )
 loadi( strcat(cdsgit_path "/load_cdsgit.il") )
