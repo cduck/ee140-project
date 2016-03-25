@@ -42,7 +42,7 @@ list(tmp1 tmp2)
 list(tmp1)
 )
 tmp1->value = nil
-tmp1->plot = 't
+tmp1->plot = nil
 tmp1->save = 't
 tmp1->march = nil
 tmp1->index = 1
@@ -98,7 +98,7 @@ list(tmp1 tmp2)
 list(tmp1)
 )
 tmp1->value = nil
-tmp1->plot = 't
+tmp1->plot = nil
 tmp1->save = 't
 tmp1->march = nil
 tmp1->index = 2
