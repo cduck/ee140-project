@@ -209,8 +209,8 @@ list(tmp1 tmp2)
 list(tmp1)
 )
 tmp1->value = nil
-tmp1->plot = 't
-tmp1->save = 't
+tmp1->plot = nil
+tmp1->save = nil
 tmp1->march = nil
 tmp1->index = 4
 tmp1->timeStamp = nil
@@ -233,7 +233,7 @@ tmp1 = (ncons nil)
 tmp1->inLastSet = nil
 tmp1->name = nil
 tmp1->expression = nil
-tmp1->signal = "/V0/PLUS"
+tmp1->signal = "/Vref"
 tmp1->scriptFile = nil
 tmp1->type2 = nil
 tmp1->evalType = nil
@@ -246,7 +246,7 @@ tmp1->saveMasterScriptFile = nil
 tmp1->isReferenced = nil
 tmp1->lastEvalTime = nil
 tmp1->origin = nil
-tmp1->type = 'terminal
+tmp1->type = 'net
 tmp1->areaTable = nil
 tmp1->selectionDetail = (let
 (tmp1)
@@ -255,7 +255,7 @@ tmp1 = (let
 tmp1 = 'color
 tmp2 = (let
 (tmp1 tmp2)
-tmp1 = "y3"
+tmp1 = "y2"
 tmp2 = "drawing"
 list(tmp1 tmp2)
 )
@@ -264,8 +264,8 @@ list(tmp1 tmp2)
 list(tmp1)
 )
 tmp1->value = nil
-tmp1->plot = nil
-tmp1->save = nil
+tmp1->plot = 't
+tmp1->save = 't
 tmp1->march = nil
 tmp1->index = 5
 tmp1->timeStamp = nil
