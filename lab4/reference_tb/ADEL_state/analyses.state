@@ -10,16 +10,16 @@ analysis(dc fields lin) ""
 analysis(dc fields log) ""
 analysis(dc fields mod) ""
 analysis(dc fields modelParam) ""
-analysis(dc fields param) "Vbat"
+analysis(dc fields param) "temp"
 analysis(dc fields rangeType) "Start-Stop"
 analysis(dc fields saveOppoint) nil
 analysis(dc fields span) ""
-analysis(dc fields start) "0.9"
-analysis(dc fields step) "0.05"
+analysis(dc fields start) "-45"
+analysis(dc fields step) "3"
 analysis(dc fields stepTypeLin) "Step Size"
 analysis(dc fields stepTypeLog) "Points Per Decade"
-analysis(dc fields stop) "1.6"
-analysis(dc fields sweep) "Design Variable"
+analysis(dc fields stop) "80"
+analysis(dc fields sweep) "Temperature"
 analysis(dc fields sweepChange) nil
 analysis(dc fields useDiscrete) nil
 analysis(dc fields values) nil
