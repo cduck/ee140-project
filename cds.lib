@@ -10,3 +10,9 @@ SOFTINCLUDE /share/instsww/cadence/IC615.151/share/cdssetup/cds.lib
 SOFTINCLUDE /usr/local/cadence/IC615.151/share/cdssetup/cds.lib
 DEFINE lab4 ./lab4
 #Removed by ddDeleteObj: DEFINE library#2dlydia /home/cc/ee140/sp16/class/ee140-ag/ee140-project/library#2dlydia
+#Removed by ddDeleteObj: DEFINE lydia /home/cc/ee140/sp16/class/ee140-ag/ee140/lydia
+DEFINE avTech /share/instsww/cadence/ASSURA41-615/tools/assura/etc/avtech/avTech
+#Removed by ddDeleteObj: DEFINE lab5 /home/cc/ee140/sp16/class/ee140-ag/ee140-project/lab5
+DEFINE lab5 /home/cc/ee140/sp16/class/ee140-ag/ee140-project/lab5
+#Removed by ddDeleteObj: DEFINE ee143 /home/cc/ee140/sp16/class/ee140-ag/ee140/ee143
+DEFINE ee143 /home/cc/ee140/sp16/class/ee140-ag/ee140/ee143

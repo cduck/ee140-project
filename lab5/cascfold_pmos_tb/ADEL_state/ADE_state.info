@@ -1,0 +1,3 @@
+projectDir = '"~/cadence/simulation"
+designInfo = '("lab5" "cascfold_pmos_tb" "schematic" "spectre")
+descriptionText = "None"
