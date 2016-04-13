@@ -1,10 +1,12 @@
- #####
- # test/cds.lib
- # can't use '-' in library name or '/' at end of UNIX dir
- # comment lines must start with a space, then # or --
- # SOFTINCLUDE does not generate warning if file is not found
- # created by ee140-ad (Thu Mar 10 14:59:20 PST 2016)
- #####
+# File Created by DUCKERING,CASEY_CHARLES,, at Tue Apr 12 19:04:55 2016
+# assisted by CdsLibEditor
+#####
+# test/cds.lib
+# can't use '-' in library name or '/' at end of UNIX dir
+# comment lines must start with a space, then # or --
+# SOFTINCLUDE does not generate warning if file is not found
+# created by ee140-ad (Thu Mar 10 14:59:20 PST 2016)
+#####
 INCLUDE /share/instsww/cadence/GPDK_PKG/gpdk090_v4.6/cds.lib.oa22
 SOFTINCLUDE /share/instsww/cadence/IC615.151/share/cdssetup/cds.lib
 SOFTINCLUDE /usr/local/cadence/IC615.151/share/cdssetup/cds.lib
@@ -13,6 +15,6 @@ DEFINE lab4 ./lab4
 #Removed by ddDeleteObj: DEFINE lydia /home/cc/ee140/sp16/class/ee140-ag/ee140/lydia
 DEFINE avTech /share/instsww/cadence/ASSURA41-615/tools/assura/etc/avtech/avTech
 #Removed by ddDeleteObj: DEFINE lab5 /home/cc/ee140/sp16/class/ee140-ag/ee140-project/lab5
-DEFINE lab5 /home/cc/ee140/sp16/class/ee140-ag/ee140-project/lab5
+DEFINE lab5 ./lab5
 #Removed by ddDeleteObj: DEFINE ee143 /home/cc/ee140/sp16/class/ee140-ag/ee140/ee143
 DEFINE ee143 /home/cc/ee140/sp16/class/ee140-ag/ee140/ee143
