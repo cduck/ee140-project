@@ -25,7 +25,7 @@ tmp3 = make_sevVariableStruct()
 tmp3 = (ncons nil)
 )
 tmp3->name = "Vcm"
-tmp3->expression = "1"
+tmp3->expression = "0"
 tmp3->index = 3
 list(tmp1 tmp2 tmp3)
 )
