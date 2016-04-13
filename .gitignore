@@ -29,6 +29,9 @@ ConnectedPinsLog.txt
 UnconnectedPinsLog.txt
 #Cadence log files
 libManager.log
+libManager.log.*
+cdsLibEditor.log
+cdsLibEditor.log.*
 
 #Cliosoft
 .SOS

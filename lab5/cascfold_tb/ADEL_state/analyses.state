@@ -1,6 +1,6 @@
 analysis(dc fields center) ""
 analysis(dc fields dec) ""
-analysis(dc fields designVar) "Vp"
+analysis(dc fields designVar) "Vp1"
 analysis(dc fields dev) ""
 analysis(dc fields deviceParam) ""
 analysis(dc fields enable) (t)
@@ -10,15 +10,15 @@ analysis(dc fields lin) ""
 analysis(dc fields log) ""
 analysis(dc fields mod) ""
 analysis(dc fields modelParam) ""
-analysis(dc fields param) "Vp"
+analysis(dc fields param) "Vp1"
 analysis(dc fields rangeType) "Start-Stop"
 analysis(dc fields saveOppoint) nil
 analysis(dc fields span) ""
-analysis(dc fields start) "-0.5"
+analysis(dc fields start) "-.5"
 analysis(dc fields step) ""
 analysis(dc fields stepTypeLin) "Step Size"
 analysis(dc fields stepTypeLog) "Points Per Decade"
-analysis(dc fields stop) "3.5"
+analysis(dc fields stop) "3"
 analysis(dc fields sweep) "Design Variable"
 analysis(dc fields sweepChange) nil
 analysis(dc fields useDiscrete) nil
