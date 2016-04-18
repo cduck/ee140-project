@@ -6,7 +6,7 @@ analysis(dc fields deviceParam) ""
 analysis(dc fields enable) (t)
 analysis(dc fields hysteresis) nil
 analysis(dc fields incrType) "Linear"
-analysis(dc fields lin) ""
+analysis(dc fields lin) "2"
 analysis(dc fields log) ""
 analysis(dc fields mod) ""
 analysis(dc fields modelParam) ""
@@ -14,7 +14,7 @@ analysis(dc fields param) "Vbat"
 analysis(dc fields rangeType) "Start-Stop"
 analysis(dc fields saveOppoint) t
 analysis(dc fields span) ""
-analysis(dc fields start) ".9"
+analysis(dc fields start) "1.6"
 analysis(dc fields step) ".05"
 analysis(dc fields stepTypeLin) "Step Size"
 analysis(dc fields stepTypeLog) "Points Per Decade"
