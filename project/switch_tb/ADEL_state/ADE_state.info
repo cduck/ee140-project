@@ -1,3 +1,3 @@
 projectDir = '"~/cadence/simulation"
-designInfo = '("project" "not_tb" "schematic" "spectre")
+designInfo = '("project" "switch_tb" "schematic" "spectre")
 descriptionText = "None"
