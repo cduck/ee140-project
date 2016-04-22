@@ -77,7 +77,7 @@
                     <IndexedProp Name="indepAxisList">
                         <ObjectProp>
                             <Object Class="wsIndepAxis">
-                                <SimpleProp Name="savedObjectId" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                <SimpleProp Name="savedObjectId" Value="indepAxis[*.1.1]" Type="stringValue" />
                                 <SimpleProp Name="axisNumber" Value="-1" Type="intValue" />
                                 <SimpleProp Name="baseUnit" Value="s" Type="stringValue" />
                                 <SimpleProp Name="drawZeroGrid" Value="0" Type="boolValue" />
@@ -87,7 +87,7 @@
                                 <SimpleProp Name="labelWithAxisNumber" Value="0" Type="boolValue" />
                                 <SimpleProp Name="majDivisions" Value="5" Type="intValue" />
                                 <SimpleProp Name="majorDelta" Value="0" Type="doubleValue" />
-                                <SimpleProp Name="maxScale" Value="1.50304150304e-06" Type="doubleValue" />
+                                <SimpleProp Name="maxScale" Value="1.50304e-06" Type="doubleValue" />
                                 <SimpleProp Name="minDivisions" Value="5" Type="intValue" />
                                 <SimpleProp Name="minScale" Value="0" Type="doubleValue" />
                                 <SimpleProp Name="modifier" Value="" Type="modifierValue" />
@@ -120,7 +120,7 @@
                     <IndexedProp Name="stripContainerList">
                         <ObjectProp>
                             <Object Class="wsStripContainer">
-                                <SimpleProp Name="savedObjectId" Value="stripContainer[1.1.2]" Type="stringValue" />
+                                <SimpleProp Name="savedObjectId" Value="stripContainer[*.1.1]" Type="stringValue" />
                                 <SimpleProp Name="currentHeight" Value="511" Type="intValue" />
                                 <SimpleProp Name="enableEdgeMeasures" Value="0" Type="boolValue" />
                                 <SimpleProp Name="fixedSize" Value="0" Type="boolValue" />
@@ -133,7 +133,7 @@
                                 <IndexedProp Name="depAxisList">
                                     <ObjectProp>
                                         <Object Class="wsDepAxis">
-                                            <SimpleProp Name="savedObjectId" Value="depAxis[1.1.3]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="depAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="axisNumber" Value="1" Type="intValue" />
                                             <SimpleProp Name="baseUnit" Value="V" Type="stringValue" />
                                             <SimpleProp Name="drawZeroGrid" Value="0" Type="boolValue" />
@@ -179,7 +179,7 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsDepAxis">
-                                            <SimpleProp Name="savedObjectId" Value="depAxis[1.1.4]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="depAxis[*.1.2]" Type="stringValue" />
                                             <SimpleProp Name="axisNumber" Value="2" Type="intValue" />
                                             <SimpleProp Name="baseUnit" Value="A" Type="stringValue" />
                                             <SimpleProp Name="drawZeroGrid" Value="0" Type="boolValue" />
@@ -227,19 +227,19 @@
                                 <IndexedProp Name="traceList">
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.21]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.3]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/net010" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -287,19 +287,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.22]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.2]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.3]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#00cc66" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/net011" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -347,19 +347,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.23]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.3]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.3]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#ff00ff" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/net013" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -407,19 +407,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.24]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.4]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.3]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#00ffff" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/net017" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -467,19 +467,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.25]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.5]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.3]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#9900e6" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/net055" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -527,19 +527,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.26]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.6]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.3]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#ff8000" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/net029" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -587,19 +587,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.27]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.7]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.3]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#d9cc00" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/net027" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -647,19 +647,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.28]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.8]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.3]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#0000ff" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/net026" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -707,19 +707,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.29]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.9]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.4]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.2]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#d9e6ff" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/Ci1/PLUS" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -767,19 +767,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.30]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.10]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.4]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.2]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value='IT(&quot;/I1/Ci1/MINUS&quot;)' Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/Ci1/MINUS" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -827,19 +827,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.31]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.11]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.4]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.2]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#00cc66" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/Ci2/PLUS" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -887,19 +887,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.32]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.12]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.4]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.2]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value='IT(&quot;/I1/Ci2/MINUS&quot;)' Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#ff00ff" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/Ci2/MINUS" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -947,19 +947,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.33]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.13]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.4]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.2]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#00ffff" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/Ci0/PLUS" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -1007,19 +1007,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.34]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.14]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.4]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.2]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value='IT(&quot;/I1/Ci0/MINUS&quot;)' Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#9900e6" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/Ci0/MINUS" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -1067,19 +1067,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.35]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.15]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.4]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.2]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#ff8000" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/Ci/PLUS" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -1127,19 +1127,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.36]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.16]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.4]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.2]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value='IT(&quot;/I1/Ci/MINUS&quot;)' Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#d9cc00" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/Ci/MINUS" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -1187,19 +1187,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.37]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.17]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.4]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.2]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#0000ff" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/S12/i" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -1247,19 +1247,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.38]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.18]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.4]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.2]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#d9e6ff" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/S12/o" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -1307,19 +1307,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.39]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.19]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.4]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.2]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/S22/i" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -1367,19 +1367,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.40]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.20]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.4]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.2]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#00cc66" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/S22/o" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -1401,7 +1401,7 @@
                                             <SimpleProp Name="viva.trace.lineThickness" Value="Fine" Type="painterLineWidthValue" />
                                             <SimpleProp Name="viva.trace.symbolCount" Value="20" Type="intValue" />
                                             <SimpleProp Name="viva.trace.symbolCountAll" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="viva.trace.symbolStyle" Value="Plus" Type="traceSymbolStyleValue" />
+                                            <SimpleProp Name="viva.trace.symbolStyle" Value="Box" Type="traceSymbolStyleValue" />
                                             <SimpleProp Name="viva.trace.symbolsOn" Value="0" Type="boolValue" />
                                             <SimpleProp Name="viva.trace.threshold" Value="20_80" Type="thresholdValue" />
                                             <SimpleProp Name="viva.trace.toplineReference" Value="5" Type="doubleValue" />
@@ -1427,19 +1427,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.41]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.21]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.3]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#ff00ff" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/nphi1" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -1487,19 +1487,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.42]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.22]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.3]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#00ffff" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/phi22" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
@@ -1547,19 +1547,19 @@
                                     </ObjectProp>
                                     <ObjectProp>
                                         <Object Class="wsRectTrace">
-                                            <SimpleProp Name="savedObjectId" Value="rectTrace[1.1.43]" Type="stringValue" />
+                                            <SimpleProp Name="savedObjectId" Value="rectTrace[*.1.23]" Type="stringValue" />
                                             <SimpleProp Name="assignDepAxis" Value="" Type="stringValue" />
                                             <SimpleProp Name="background" Value="#ff0000" Type="colorValue" />
                                             <SimpleProp Name="barBase" Value="-2e+37" Type="doubleValue" />
                                             <SimpleProp Name="barShift" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="barWidth" Value="0.5" Type="doubleValue" />
                                             <SimpleProp Name="dataDir" Value="/home/cc/ee140/sp16/class/ee140-ad/cadence/simulation/pga_tb/spectre/schematic/psf" Type="stringValue" />
-                                            <SimpleProp Name="depAxis" Value="depAxis[1.1.3]" Type="stringValue" />
+                                            <SimpleProp Name="depAxis" Value="depAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="edgeIndex" Value="-1" Type="intValue" />
                                             <SimpleProp Name="expression" Value="" Type="stringValue" />
                                             <SimpleProp Name="foreground" Value="#9900e6" Type="colorValue" />
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="indepAxis" Value="indepAxis[1.1.1]" Type="stringValue" />
+                                            <SimpleProp Name="indepAxis" Value="indepAxis[*.1.1]" Type="stringValue" />
                                             <SimpleProp Name="label" Value="/I1/phi1_buf" Type="stringValue" />
                                             <SimpleProp Name="specMarkerId" Value="" Type="stringValue" />
                                             <SimpleProp Name="stripNumber" Value="1" Type="intValue" />

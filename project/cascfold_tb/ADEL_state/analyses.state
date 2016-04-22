@@ -1,6 +1,6 @@
 analysis(ac fields center) ""
 analysis(ac fields contriblist) nil
-analysis(ac fields dec) "5"
+analysis(ac fields dec) "20"
 analysis(ac fields designVar) ""
 analysis(ac fields dev) ""
 analysis(ac fields deviceParam) ""
