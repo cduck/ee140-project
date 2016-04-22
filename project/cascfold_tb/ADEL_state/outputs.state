@@ -97,7 +97,7 @@ list(tmp1 tmp2)
 list(tmp1)
 )
 tmp1->value = nil
-tmp1->plot = 't
+tmp1->plot = nil
 tmp1->save = 't
 tmp1->march = nil
 tmp1->index = 2
@@ -152,7 +152,7 @@ list(tmp1 tmp2)
 list(tmp1)
 )
 tmp1->value = nil
-tmp1->plot = 't
+tmp1->plot = nil
 tmp1->save = 't
 tmp1->march = nil
 tmp1->index = 3
@@ -207,7 +207,7 @@ list(tmp1 tmp2)
 list(tmp1)
 )
 tmp1->value = nil
-tmp1->plot = 't
+tmp1->plot = nil
 tmp1->save = 't
 tmp1->march = nil
 tmp1->index = 4
@@ -262,7 +262,7 @@ list(tmp1 tmp2)
 list(tmp1)
 )
 tmp1->value = nil
-tmp1->plot = 't
+tmp1->plot = nil
 tmp1->save = 't
 tmp1->march = nil
 tmp1->index = 5
@@ -317,7 +317,7 @@ list(tmp1 tmp2)
 list(tmp1)
 )
 tmp1->value = nil
-tmp1->plot = 't
+tmp1->plot = nil
 tmp1->save = 't
 tmp1->march = nil
 tmp1->index = 6
@@ -372,7 +372,7 @@ list(tmp1 tmp2)
 list(tmp1)
 )
 tmp1->value = nil
-tmp1->plot = 't
+tmp1->plot = nil
 tmp1->save = nil
 tmp1->march = nil
 tmp1->index = 7
@@ -427,7 +427,7 @@ list(tmp1 tmp2)
 list(tmp1)
 )
 tmp1->value = nil
-tmp1->plot = 't
+tmp1->plot = nil
 tmp1->save = nil
 tmp1->march = nil
 tmp1->index = 8
@@ -537,7 +537,7 @@ list(tmp1 tmp2)
 list(tmp1)
 )
 tmp1->value = nil
-tmp1->plot = 't
+tmp1->plot = nil
 tmp1->save = nil
 tmp1->march = nil
 tmp1->index = 10
@@ -592,7 +592,7 @@ list(tmp1 tmp2)
 list(tmp1)
 )
 tmp1->value = nil
-tmp1->plot = 't
+tmp1->plot = nil
 tmp1->save = nil
 tmp1->march = nil
 tmp1->index = 11
@@ -647,7 +647,7 @@ list(tmp1 tmp2)
 list(tmp1)
 )
 tmp1->value = nil
-tmp1->plot = 't
+tmp1->plot = nil
 tmp1->save = nil
 tmp1->march = nil
 tmp1->index = 12
@@ -702,7 +702,7 @@ list(tmp1 tmp2)
 list(tmp1)
 )
 tmp1->value = nil
-tmp1->plot = 't
+tmp1->plot = nil
 tmp1->save = nil
 tmp1->march = nil
 tmp1->index = 13
@@ -757,7 +757,7 @@ list(tmp1 tmp2)
 list(tmp1)
 )
 tmp1->value = nil
-tmp1->plot = 't
+tmp1->plot = nil
 tmp1->save = nil
 tmp1->march = nil
 tmp1->index = 14
