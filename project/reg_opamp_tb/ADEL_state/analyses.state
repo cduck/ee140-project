@@ -1,6 +1,6 @@
 analysis(dc fields center) ""
 analysis(dc fields dec) ""
-analysis(dc fields designVar) "Vbat"
+analysis(dc fields designVar) "Vcm"
 analysis(dc fields dev) ""
 analysis(dc fields deviceParam) ""
 analysis(dc fields enable) (t)
@@ -10,15 +10,15 @@ analysis(dc fields lin) ""
 analysis(dc fields log) ""
 analysis(dc fields mod) ""
 analysis(dc fields modelParam) ""
-analysis(dc fields param) "Vbat"
+analysis(dc fields param) "Vcm"
 analysis(dc fields rangeType) "Start-Stop"
 analysis(dc fields saveOppoint) t
 analysis(dc fields span) ""
-analysis(dc fields start) "0.9"
-analysis(dc fields step) ".05"
+analysis(dc fields start) "0"
+analysis(dc fields step) ".1"
 analysis(dc fields stepTypeLin) "Step Size"
 analysis(dc fields stepTypeLog) "Points Per Decade"
-analysis(dc fields stop) "3.2"
+analysis(dc fields stop) "2.5"
 analysis(dc fields sweep) "Design Variable"
 analysis(dc fields sweepChange) nil
 analysis(dc fields useDiscrete) nil

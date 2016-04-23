@@ -7,7 +7,7 @@ tmp1 = make_sevVariableStruct()
 tmp1 = (ncons nil)
 )
 tmp1->name = "Canalog"
-tmp1->expression = "2p"
+tmp1->expression = "1p"
 tmp1->index = 1
 (unless tmp2
 tmp2 = make_sevVariableStruct()
@@ -16,7 +16,7 @@ tmp2 = make_sevVariableStruct()
 tmp2 = (ncons nil)
 )
 tmp2->name = "Ranalog"
-tmp2->expression = "2M"
+tmp2->expression = "100k"
 tmp2->index = 2
 (unless tmp3
 tmp3 = make_sevVariableStruct()
