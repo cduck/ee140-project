@@ -71,11 +71,11 @@ analysis(dc fields param) "Vp1"
 analysis(dc fields rangeType) "Start-Stop"
 analysis(dc fields saveOppoint) nil
 analysis(dc fields span) ""
-analysis(dc fields start) "-.01"
-analysis(dc fields step) ".0001"
+analysis(dc fields start) "-.005"
+analysis(dc fields step) ".000001"
 analysis(dc fields stepTypeLin) "Step Size"
 analysis(dc fields stepTypeLog) "Points Per Decade"
-analysis(dc fields stop) "1"
+analysis(dc fields stop) ".005"
 analysis(dc fields sweep) "Design Variable"
 analysis(dc fields sweepChange) nil
 analysis(dc fields useDiscrete) nil
