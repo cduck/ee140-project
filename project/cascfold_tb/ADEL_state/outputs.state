@@ -923,7 +923,7 @@ list(tmp1)
 )
 tmp1->value = nil
 tmp1->plot = nil
-tmp1->save = 't
+tmp1->save = nil
 tmp1->march = nil
 tmp1->index = 17
 tmp1->timeStamp = nil
