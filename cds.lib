@@ -21,3 +21,4 @@ DEFINE lab5 ./lab5
 #Removed by ddDeleteObj: DEFINE ee143 /home/cc/ee140/sp16/class/ee140-ag/ee140/ee143
 DEFINE ee143 /home/cc/ee140/sp16/class/ee140-ag/ee140/ee143
 DEFINE project ./project
+DEFINE adc /home/cc/ee140/sp16/class/ee140-ad/ee140-project/adc
