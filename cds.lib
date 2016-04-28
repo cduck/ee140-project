@@ -1,4 +1,4 @@
-# File Created by Lydia_Lee,, at Sun Apr 17 19:42:08 2016
+# File Created by Lydia_Lee,, at Thu Apr 28 12:27:21 2016
 # assisted by CdsLibEditor
 # File Created by DUCKERING,CASEY_CHARLES,, at Tue Apr 12 19:04:55 2016
 # assisted by CdsLibEditor
@@ -21,4 +21,4 @@ DEFINE lab5 ./lab5
 #Removed by ddDeleteObj: DEFINE ee143 /home/cc/ee140/sp16/class/ee140-ag/ee140/ee143
 DEFINE ee143 /home/cc/ee140/sp16/class/ee140-ag/ee140/ee143
 DEFINE project ./project
-DEFINE adc /home/cc/ee140/sp16/class/ee140-ad/ee140-project/adc
+DEFINE adc ./adc
