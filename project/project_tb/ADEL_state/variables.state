@@ -124,7 +124,7 @@ tmp14 = make_sevVariableStruct()
 tmp14 = (ncons nil)
 )
 tmp14->name = "MUX0"
-tmp14->expression = "0"
+tmp14->expression = "1"
 tmp14->index = 14
 (unless tmp15
 tmp15 = make_sevVariableStruct()
@@ -133,7 +133,7 @@ tmp15 = make_sevVariableStruct()
 tmp15 = (ncons nil)
 )
 tmp15->name = "MUX1"
-tmp15->expression = "Vlogic"
+tmp15->expression = "1"
 tmp15->index = 15
 list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15)
 )
