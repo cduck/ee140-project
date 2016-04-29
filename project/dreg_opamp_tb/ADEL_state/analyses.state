@@ -3,7 +3,7 @@ analysis(dc fields dec) ""
 analysis(dc fields designVar) "Vin"
 analysis(dc fields dev) ""
 analysis(dc fields deviceParam) ""
-analysis(dc fields enable) (nil)
+analysis(dc fields enable) (t)
 analysis(dc fields hysteresis) nil
 analysis(dc fields incrType) "Linear"
 analysis(dc fields lin) ""
@@ -48,7 +48,7 @@ analysis(tran fields dynHeadListBox) (nil choices ("#         time              
 analysis(tran fields dynParam) ""
 analysis(tran fields dynParamListBox) (nil choices nil value nil)
 analysis(tran fields dynchoice) "Parameter file"
-analysis(tran fields enable) (t)
+analysis(tran fields enable) (nil)
 analysis(tran fields errpreset) "conservative"
 analysis(tran fields noisefmax) ""
 analysis(tran fields noisefmin) ""
@@ -65,7 +65,6 @@ analysis(tran fields paramValue) ""
 analysis(tran fields param_file) ""
 analysis(tran fields param_vec) nil
 analysis(tran fields stop) "1u"
-analysis(tran fields tranNoise) ""
 analysis(tran fields tranNoiseMultiRuns) ""
 analysis(tran options acnames) nil
 analysis(tran options actimes) nil
