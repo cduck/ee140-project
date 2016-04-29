@@ -63,7 +63,7 @@ analysis(dc fields deviceParam) ""
 analysis(dc fields enable) (nil)
 analysis(dc fields hysteresis) nil
 analysis(dc fields incrType) "Linear"
-analysis(dc fields lin) ""
+analysis(dc fields lin) "1000"
 analysis(dc fields log) ""
 analysis(dc fields mod) ""
 analysis(dc fields modelParam) ""
@@ -71,11 +71,11 @@ analysis(dc fields param) "Vp1"
 analysis(dc fields rangeType) "Start-Stop"
 analysis(dc fields saveOppoint) nil
 analysis(dc fields span) ""
-analysis(dc fields start) "1.24999"
-analysis(dc fields step) ".00000001"
-analysis(dc fields stepTypeLin) "Step Size"
+analysis(dc fields start) "1.249999"
+analysis(dc fields step) ""
+analysis(dc fields stepTypeLin) "Number of Steps"
 analysis(dc fields stepTypeLog) "Points Per Decade"
-analysis(dc fields stop) "1.25001"
+analysis(dc fields stop) "1.250004"
 analysis(dc fields sweep) "Design Variable"
 analysis(dc fields sweepChange) nil
 analysis(dc fields useDiscrete) nil

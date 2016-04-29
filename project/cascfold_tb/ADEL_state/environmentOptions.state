@@ -1,4 +1,4 @@
-(envOpts analysisOrder) ("dc" "ac" "tran")
+(envOpts analysisOrder) ("ac" "tran" "dc")
 (envOpts autoDisplay) t
 (envOpts cmd64bit) nil
 (envOpts enableArclength) nil
