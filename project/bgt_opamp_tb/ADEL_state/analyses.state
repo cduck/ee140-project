@@ -1,6 +1,6 @@
 analysis(dc fields center) ""
 analysis(dc fields dec) ""
-analysis(dc fields designVar) "Vin"
+analysis(dc fields designVar) "Vbat"
 analysis(dc fields dev) ""
 analysis(dc fields deviceParam) ""
 analysis(dc fields enable) (t)
@@ -10,7 +10,7 @@ analysis(dc fields lin) "1000"
 analysis(dc fields log) ""
 analysis(dc fields mod) ""
 analysis(dc fields modelParam) ""
-analysis(dc fields param) "Vin"
+analysis(dc fields param) "Vbat"
 analysis(dc fields rangeType) "Start-Stop"
 analysis(dc fields saveOppoint) nil
 analysis(dc fields span) ""
