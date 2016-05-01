@@ -61,7 +61,7 @@ tmp7 = make_sevVariableStruct()
 tmp7 = (ncons nil)
 )
 tmp7->name = "Vbat"
-tmp7->expression = "2.2"
+tmp7->expression = "2.5"
 tmp7->index = 7
 (unless tmp8
 tmp8 = make_sevVariableStruct()
@@ -79,7 +79,7 @@ tmp9 = make_sevVariableStruct()
 tmp9 = (ncons nil)
 )
 tmp9->name = "Vin0"
-tmp9->expression = "0.3"
+tmp9->expression = ".9"
 tmp9->index = 9
 (unless tmp10
 tmp10 = make_sevVariableStruct()
@@ -88,7 +88,7 @@ tmp10 = make_sevVariableStruct()
 tmp10 = (ncons nil)
 )
 tmp10->name = "Vin1"
-tmp10->expression = "0.7"
+tmp10->expression = "500m"
 tmp10->index = 10
 (unless tmp11
 tmp11 = make_sevVariableStruct()
